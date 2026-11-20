@@ -1,0 +1,25 @@
+PASS  portada muestra el título del sistema  — Sistema web autoadaptable
+PASS  detección automática guarda un resultado  — perfil=low, mops=1129.8, cores=1, mem=4
+PASS  el navegador expone núcleos (hardwareConcurrency)
+PASS  en contexto seguro (localhost) deviceMemory se reporta  — valor=4
+PASS  performance.memory se detecta como no estándar (Chromium)
+PASS  diagnóstico muestra el perfil aplicado  — PERFIL APLICADO | 
+PASS  diagnóstico lista capacidades detectadas  — 7 filas
+PASS  diagnóstico muestra el resultado del benchmark
+PASS  barra lateral muestra el estado del motor  — Perfil detectado: Bajo
+PASS  perfil bajo: la lección se muestra por páginas  — 4 bloques visibles, botón: Mostrar más contenido (quedan 5 bloques)
+PASS  barra lateral indica simulación  — Simulación: Bajo
+PASS  perfil bajo oculta el panel de avance (interfaz simplificada)
+PASS  perfil bajo: el video se sustituye por transcripción
+PASS  motor desactivado: carga completa sin paginación  — 9 bloques
+PASS  motor desactivado: el video se reproduce en calidad alta
+PASS  motor desactivado usa la fuente de 1080p  — /videos/muestra-1-1080.mp4
+PASS  se registran cargas medidas en el navegador  — 4 registros
+PASS  cada registro trae LCP real (número) y tiempo de carga  — lcp=542.9 load=501.3 tbt=4 heap=9.5
+PASS  registro etiquetado como control (inactivo) y perfil de prueba  — inactivo/medium
+PASS  comparación indica pendiente con menos de 10 repeticiones  — Pendiente: 0 de 10 repeticiones por condición.
+PASS  sin cifras inventadas: hay celdas con "Sin datos" o valores medidos
+PASS  diseño móvil sin desbordamiento horizontal  — desbordamiento=0px
+PASS  sin errores de JavaScript en consola
+
+23 de 23 comprobaciones superadas.

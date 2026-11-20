@@ -1,0 +1,24 @@
+{
+  "name": "sistema-web-autoadaptable",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node scripts/verificar-clasificacion.mjs",
+    "analisis": "python scripts/analisis_estadistico.py",
+    "test:navegador": "node scripts/pruebas-navegador.cjs",
+    "calibrar": "node scripts/calibracion-throttling.cjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11",
+    "puppeteer-core": "^23.0.0"
+  }
+}

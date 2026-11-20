@@ -1,0 +1,17 @@
+{
+  "descripcion": "Calibración del micro-benchmark con throttling de CPU de Chrome (Emulation.setCPUThrottlingRate), mismo mecanismo que DevTools. Equipo de referencia: entorno Linux de prueba con Chrome 131 headless. Tres repeticiones por nivel.",
+  "fecha": "2026-10-29",
+  "resultados_mops": {
+    "1x (sin limitación)": [1463.1, 1266.2, 1198.4],
+    "2x": [473.9, 469.5, 455.9],
+    "4x": [242.4, 246.7, 245.3],
+    "6x": [161.9, 184.5, 165.8]
+  },
+  "medianas_mops": { "1x": 1266.2, "2x": 469.5, "4x": 245.3, "6x": 165.8 },
+  "umbrales_definidos": { "bajo_si_menor_que": 200, "medio_si_menor_que": 550, "criterio": "punto medio geométrico entre perfiles adyacentes" },
+  "limitaciones": [
+    "Un solo equipo. Los umbrales no se han validado en teléfonos ni en computadores físicos de gama baja.",
+    "El throttling de CPU simula velocidad de procesamiento, no límites de memoria RAM ni de red.",
+    "El entorno de prueba reporta 1 núcleo lógico (hardwareConcurrency = 1); por eso la regla de topes clasifica ese equipo como bajo aunque el benchmark sea alto."
+  ]
+}

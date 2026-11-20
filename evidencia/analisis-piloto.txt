@@ -1,0 +1,14 @@
+Archivo: evidencia/mediciones-piloto.csv   Alfa = 0.05 (ajustado con Holm por 7 comparaciones válidas)
+
+   low | lcp_ms            | pares=10 | mediana activo=349.3 inactivo=401.4 | p=0.6953 p_holm=1.0000 | no significativo
+   low | tbt_ms            | pares=10 | mediana activo=145.0 inactivo=140.5 | p=0.6953 p_holm=1.0000 | no significativo
+   low | tareas_largas_ms  | pares=10 | mediana activo=295.0 inactivo=290.5 | p=0.3223 p_holm=1.0000 | no significativo
+   low | heap_mb           | pares=10 | mediana activo=9.5 inactivo=9.5 | p=nan p_holm=nan | no significativo
+medium | lcp_ms            | pares=10 | mediana activo=244.6 inactivo=246.9 | p=0.7695 p_holm=1.0000 | no significativo
+medium | tbt_ms            | pares=10 | mediana activo=68.0 inactivo=66.0 | p=1.0000 p_holm=1.0000 | no significativo
+medium | tareas_largas_ms  | pares=10 | mediana activo=178.0 inactivo=164.5 | p=0.4316 p_holm=1.0000 | no significativo
+medium | heap_mb           | pares=10 | mediana activo=9.5 inactivo=9.5 | p=nan p_holm=nan | no significativo
+  high | lcp_ms            | pares=10 | mediana activo=65.4 inactivo=67.7 | p=0.6250 p_holm=1.0000 | no significativo
+  high | tbt_ms            | pares=10 | mediana activo=0.0 inactivo=0.0 | p=nan p_holm=nan | no significativo
+  high | tareas_largas_ms  | pares=10 | mediana activo=0.0 inactivo=0.0 | p=nan p_holm=nan | no significativo
+  high | heap_mb           | pares=10 | mediana activo=9.5 inactivo=9.5 | p=nan p_holm=nan | no significativo
